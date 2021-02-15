@@ -20,8 +20,8 @@ var commentRoutes       =require("./routes/comments"),
 // start seeding : run fun seedDB
 //seedDB();
 // db setup
- mongoose.connect("mongodb://localhost:27017/yelp_camp", {useNewUrlParser:true});
-// mongoose.connect("mongodb+srv://garry:vagabond@cluster0.u5hrb.mongodb.net/<yelpcamp>?retryWrites=true&w=majority", {useNewUrlParser:true});
+ // mongoose.connect("mongodb://localhost:27017/yelp_camp", {useNewUrlParser:true});
+mongoose.connect("mongodb+srv://garry:vagabond@cluster0.u5hrb.mongodb.net/Cluster0?retryWrites=true&w=majority", {useNewUrlParser:true});
 // mongodb+srv://garry:<password>@cluster0.u5hrb.mongodb.net/<dbname>?retryWrites=true&w=majority
 
 app.use(bodyParser.urlencoded({extended:true}));
