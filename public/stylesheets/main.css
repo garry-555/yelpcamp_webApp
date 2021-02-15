@@ -1,0 +1,13 @@
+
+.thumbnail img {    /*all image tags inside the thumbnail */
+	width:100%;
+}
+.thumbnail.cool {
+	padding:0;
+}
+.thumbnail .caption-full {
+	padding:10px;
+}
+#delete-form{
+	display:inline;
+}
